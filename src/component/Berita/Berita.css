@@ -1,0 +1,24 @@
+.Berita{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+}
+.info{
+    margin-left: 10px;
+}
+.info p{
+    font-size: small;
+}
+.info a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .Berita{
+        width: 500px;
+    }
+  }

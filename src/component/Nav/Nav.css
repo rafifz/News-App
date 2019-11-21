@@ -1,0 +1,11 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+}
+.nav p {
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;   
+}
